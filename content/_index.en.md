@@ -24,6 +24,8 @@ You will find the list of all Serum DEXes on our [official page](/en/dex-list)
 
 ## Contribute to the Serum Academy
 
+The source of this project can be found on GitHub: [https://github.com/dr497/serum-academy](https://github.com/dr497/serum-academy)
+
 Feel free to update this content, just click the **Edit this page** link displayed on top right of each page, and pullrequest it
 
 {{% notice tip %}}
