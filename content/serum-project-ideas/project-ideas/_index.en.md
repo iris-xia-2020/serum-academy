@@ -6,6 +6,16 @@ weight: 2
 
 ## Project Ideas
 
+If you want to know how to get involved on these projects see our dedicated page: [Getting involved](/en/getting-involved)
+
+Feel free to reach out to us if you are interested in any of these projects:
+
+- EcoSerum website: [https://www.ecoserum.dev/](https://www.ecoserum.dev/)
+- EcoSerum Telegram: [@ecoSerum](https://t.me/ecoSerum)
+- Email: [contact@projectserum.com](mailto:contact@projectserum.com)
+- Twitter: [@ProjectSerum](https://twitter.com/ProjectSerum)
+- Discord: [Project Serum](https://discord.com/invite/MxZFT4v)
+
 ### AMM Bot
 
 Building an open source system that people can use to achieve AMM-like behavior on Serum’s orderbooks.
