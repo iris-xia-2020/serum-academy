@@ -101,6 +101,20 @@
   </url>
   
   <url>
+    <loc>/zh/getting-involved/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/getting-involved/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/getting-involved/"
+                />
+  </url>
+  
+  <url>
     <loc>/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
