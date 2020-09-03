@@ -6,7 +6,7 @@ weight: 3
 
 ## DEX 网址名单
 
-以下是接入Serum DEX的网址：
+以下是接入 Serum DEX 的网址：
 
 - Serum Today: [https://serum.today](https://serum.today)
 
@@ -16,4 +16,6 @@ weight: 3
 
 - Project Serum DEX: [https://dex.projectserum.com](https://dex.projectserum.com)
 
-Serum DEX的GUI原始码是公开的，并存放于 [GitHub](https://github.com/project-serum/serum-dex-ui)。如果您也是DEX的管理人又希望加入以上名单，请和我们联络。
+- Bonfida Serum DEX: [https://serum-dex.bonfida.com](https://serum-dex.bonfida.com)
+
+Serum DEX 的 GUI 原始码是公开的，并存放于 [GitHub](https://github.com/project-serum/serum-dex-ui)。如果您也是 DEX 的管理人又希望加入以上名单，请和我们联络。

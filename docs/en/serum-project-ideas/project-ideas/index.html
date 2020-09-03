@@ -22,21 +22,21 @@
     <title>Project Ideas for Serum :: Serum Academy</title>
 
     
-    <link href="../../../css/nucleus.css?1599073316" rel="stylesheet">
-    <link href="../../../css/fontawesome-all.min.css?1599073316" rel="stylesheet">
-    <link href="../../../css/hybrid.css?1599073316" rel="stylesheet">
-    <link href="../../../css/featherlight.min.css?1599073316" rel="stylesheet">
-    <link href="../../../css/perfect-scrollbar.min.css?1599073316" rel="stylesheet">
-    <link href="../../../css/auto-complete.css?1599073316" rel="stylesheet">
-    <link href="../../../css/atom-one-dark-reasonable.css?1599073316" rel="stylesheet">
-    <link href="../../../css/theme.css?1599073316" rel="stylesheet">
-    <link href="../../../css/hugo-theme.css?1599073316" rel="stylesheet">
+    <link href="../../../css/nucleus.css?1599121985" rel="stylesheet">
+    <link href="../../../css/fontawesome-all.min.css?1599121985" rel="stylesheet">
+    <link href="../../../css/hybrid.css?1599121985" rel="stylesheet">
+    <link href="../../../css/featherlight.min.css?1599121985" rel="stylesheet">
+    <link href="../../../css/perfect-scrollbar.min.css?1599121985" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1599121985" rel="stylesheet">
+    <link href="../../../css/atom-one-dark-reasonable.css?1599121985" rel="stylesheet">
+    <link href="../../../css/theme.css?1599121985" rel="stylesheet">
+    <link href="../../../css/hugo-theme.css?1599121985" rel="stylesheet">
     
-    <link href="../../../css/theme-blue.css?1599073316" rel="stylesheet">
+    <link href="../../../css/theme-blue.css?1599121985" rel="stylesheet">
     
     
 
-    <script src="../../../js/jquery-3.3.1.min.js?1599073316"></script>
+    <script src="../../../js/jquery-3.3.1.min.js?1599121985"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -65,14 +65,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../../js/lunr.min.js?1599073316"></script>
-<script type="text/javascript" src="../../../js/auto-complete.js?1599073316"></script>
+<script type="text/javascript" src="../../../js/lunr.min.js?1599121985"></script>
+<script type="text/javascript" src="../../../js/auto-complete.js?1599121985"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="../../../js/search.js?1599073316"></script>
+<script type="text/javascript" src="../../../js/search.js?1599121985"></script>
 
     
   </div>
@@ -566,6 +566,35 @@
 <h3 id="amm-bot">AMM Bot</h3>
 <p>Building an open source system that people can use to achieve AMM-like behavior on Serum’s orderbooks.</p>
 <p>Details can be found on Ecoserum website: <a href="https://www.ecoserum.dev/">https://www.ecoserum.dev/</a></p>
+<p>If you build it to the below specs, it will receive a predetermined bounty instead of the variable one.</p>
+<p><strong>Bounty</strong>: 75k locked SRM</p>
+<p><strong>Specs</strong>:</p>
+<ul>
+<li>
+<p>Can support 2-token AMM or more</p>
+</li>
+<li>
+<p>Must trade via the orderbooks</p>
+<ul>
+<li>Send post-only orders to replicate the curve</li>
+</ul>
+</li>
+<li>
+<p>Parameters must be reasonable</p>
+</li>
+<li>
+<p>Must be functional</p>
+</li>
+<li>
+<p>Must have pool tokens</p>
+</li>
+<li>
+<p>Must be open source</p>
+</li>
+<li>
+<p>Must be able to launch new AMMs with arbitrary SPL tokens</p>
+</li>
+</ul>
 <h3 id="dumplings">Dumplings</h3>
 <p>A yield farming token that is integrated into an AMM system on Serum.</p>
 <p>Here is an idea of what it could look like:</p>
@@ -600,16 +629,50 @@
 </ul>
 <p>This means that entering the MM pool is gated by buying/owning Dumplings, and you get Dumplings each day for providing liquidity.</p>
 <h3 id="borrowlending">Borrow/Lending</h3>
-<p>Serum needs a borrow/lending protocol. This could be either:</p>
+<p>If you build it to the below specs, it will receive a predetermined bounty instead of the variable one.</p>
+<p><strong>Bounty</strong>: maximum (100k locked SRM)</p>
+<p><strong>Specs</strong>:</p>
 <ul>
 <li>
-<p>A home-brewed version</p>
+<p>Can be isolated between pairs, or cross between all pairs</p>
 </li>
 <li>
-<p>One of the major Ethereum based protocols (Compound, Aave Aave, etc.) building a mirror on Solana</p>
+<p>Must at least include the following SPL tokens: USDT, USDC, BTC, ETH, SOL (or wrapped SOL), SRM, FTT, SUSHI, MSRM, YFI, LINK.</p>
+</li>
+<li>
+<p>Must be seamlessly composable onto trades</p>
+</li>
+<li>
+<p>Parameters must be reasonable</p>
+</li>
+<li>
+<p>Must be functional</p>
+</li>
+<li>
+<p>Fees must be either:</p>
+</li>
+<li>
+<p>Predetermined at the creation of a pool</p>
+</li>
+<li>
+<p>Set via a vote of SRM nodes</p>
+</li>
+<li>
+<p>Set via a vote of the protocol’s token</p>
+</li>
+<li>
+<p>100% of fees paid to BORROW/LENDING token</p>
+<ul>
+<li>Consistent with the general <a href="../../../en/serum-project-ideas/serum-ecosystem">EcoSerum token plan</a></li>
+</ul>
+</li>
+<li>
+<p>Must be open source</p>
+</li>
+<li>
+<p>Must be able to launch new books with arbitrary SPL tokens</p>
 </li>
 </ul>
-<p>Furthermore, this can then be composed on top of Serum orderbooks to create margin trading.</p>
 <h3 id="cross-chain-bridges">Cross-Chain Bridges</h3>
 <p>It would be awesome to have fully on-chain bridges between Solana and as many other chains as possible. See prospective specs for one here, but there are many other versions!</p>
 <h3 id="cross-chain-lending">Cross-Chain Lending</h3>
@@ -629,7 +692,26 @@
 <h3 id="native-metamask-integration">Native Metamask Integration</h3>
 <p>See this introduction to Web3 Plugins for more details</p>
 <h3 id="mobile-app">Mobile App</h3>
-<p>A mobile app for Serum that also lets you self-custody on mobile.</p>
+<p>If you build it to the below specs, it will receive a predetermined bounty instead of the variable one.</p>
+<p><strong>Bounty</strong>: 50k locked SRM</p>
+<p><strong>Specs</strong>:</p>
+<ul>
+<li>
+<p>Generally well built</p>
+</li>
+<li>
+<p>Built in self-custody wallet that supports SPL tokens and SOL</p>
+</li>
+<li>
+<p>Supports the core functions of <a href="../../../en/dex-list/">https://serum-academy.com/en/dex-list/</a></p>
+</li>
+<li>
+<p>Released on apple and android app stores</p>
+</li>
+<li>
+<p>Note you will also get <a href="../../../en/dex-list">GUI rewards</a></p>
+</li>
+</ul>
 <h3 id="badges">Badges</h3>
 <p>Badges to represent participation in various aspects of Serum; e.g. liquidity providing, node operating.</p>
 <h3 id="gui--other-ideas">GUI &amp; Other Ideas</h3>
@@ -860,19 +942,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../js/clipboard.min.js?1599073316"></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1599073316"></script>
-    <script src="../../../js/perfect-scrollbar.jquery.min.js?1599073316"></script>
-    <script src="../../../js/jquery.sticky.js?1599073316"></script>
-    <script src="../../../js/featherlight.min.js?1599073316"></script>
-    <script src="../../../js/highlight.pack.js?1599073316"></script>
+    <script src="../../../js/clipboard.min.js?1599121985"></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1599121985"></script>
+    <script src="../../../js/perfect-scrollbar.jquery.min.js?1599121985"></script>
+    <script src="../../../js/jquery.sticky.js?1599121985"></script>
+    <script src="../../../js/featherlight.min.js?1599121985"></script>
+    <script src="../../../js/highlight.pack.js?1599121985"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../../js/modernizr.custom-3.6.0.js?1599073316"></script>
-    <script src="../../../js/learn.js?1599073316"></script>
-    <script src="../../../js/hugo-learn.js?1599073316"></script>
+    <script src="../../../js/modernizr.custom-3.6.0.js?1599121985"></script>
+    <script src="../../../js/learn.js?1599121985"></script>
+    <script src="../../../js/hugo-learn.js?1599121985"></script>
 
-    <link href="../../../mermaid/mermaid.css?1599073316" rel="stylesheet" />
-    <script src="../../../mermaid/mermaid.js?1599073316"></script>
+    <link href="../../../mermaid/mermaid.css?1599121985" rel="stylesheet" />
+    <script src="../../../mermaid/mermaid.js?1599121985"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

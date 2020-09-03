@@ -16,6 +16,8 @@ Below is a list of Serum DEXes:
 
 - Project Serum DEX: [https://dex.projectserum.com](https://dex.projectserum.com)
 
+- Bonfida Serum DEX: [https://serum-dex.bonfida.com](https://serum-dex.bonfida.com)
+
 ## Host a GUI
 
 Want to help support the Serum ecosystem? Host a GUI and get a fraction of the fees!

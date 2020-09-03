@@ -10,7 +10,29 @@ weight: 2
 
 Building an open source system that people can use to achieve AMM-like behavior on Serum’s orderbooks.
 
-Details can be found on Ecoserum website: https://www.ecoserum.dev/
+Details can be found on Ecoserum website: [https://www.ecoserum.dev/](https://www.ecoserum.dev/)
+
+If you build it to the below specs, it will receive a predetermined bounty instead of the variable one.
+
+**Bounty**: 75k locked SRM
+
+**Specs**:
+
+- Can support 2-token AMM or more
+
+- Must trade via the orderbooks
+
+  - Send post-only orders to replicate the curve
+
+- Parameters must be reasonable
+
+- Must be functional
+
+- Must have pool tokens
+
+- Must be open source
+
+- Must be able to launch new AMMs with arbitrary SPL tokens
 
 ### Dumplings
 
@@ -40,13 +62,35 @@ This means that entering the MM pool is gated by buying/owning Dumplings, and yo
 
 ### Borrow/Lending
 
-Serum needs a borrow/lending protocol. This could be either:
+If you build it to the below specs, it will receive a predetermined bounty instead of the variable one.
 
-- A home-brewed version
+**Bounty**: maximum (100k locked SRM)
 
-- One of the major Ethereum based protocols (Compound, Aave Aave, etc.) building a mirror on Solana
+**Specs**:
 
-Furthermore, this can then be composed on top of Serum orderbooks to create margin trading.
+- Can be isolated between pairs, or cross between all pairs
+
+- Must at least include the following SPL tokens: USDT, USDC, BTC, ETH, SOL (or wrapped SOL), SRM, FTT, SUSHI, MSRM, YFI, LINK.
+
+- Must be seamlessly composable onto trades
+
+- Parameters must be reasonable
+
+- Must be functional
+
+- Fees must be either:
+
+- Predetermined at the creation of a pool
+- Set via a vote of SRM nodes
+- Set via a vote of the protocol’s token
+
+- 100% of fees paid to BORROW/LENDING token
+
+  - Consistent with the general [EcoSerum token plan](/en/serum-project-ideas/serum-ecosystem)
+
+- Must be open source
+
+- Must be able to launch new books with arbitrary SPL tokens
 
 ### Cross-Chain Bridges
 
@@ -86,7 +130,21 @@ See this introduction to Web3 Plugins for more details
 
 ### Mobile App
 
-A mobile app for Serum that also lets you self-custody on mobile.
+If you build it to the below specs, it will receive a predetermined bounty instead of the variable one.
+
+**Bounty**: 50k locked SRM
+
+**Specs**:
+
+- Generally well built
+
+- Built in self-custody wallet that supports SPL tokens and SOL
+
+- Supports the core functions of [https://serum-academy.com/en/dex-list/](/en/dex-list/)
+
+- Released on apple and android app stores
+
+- Note you will also get [GUI rewards](/en/dex-list)
 
 ### Badges
 
