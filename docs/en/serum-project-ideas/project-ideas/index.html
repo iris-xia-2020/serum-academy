@@ -22,21 +22,21 @@
     <title>Project Ideas for Serum :: Serum Academy</title>
 
     
-    <link href="../../../css/nucleus.css?1599149171" rel="stylesheet">
-    <link href="../../../css/fontawesome-all.min.css?1599149171" rel="stylesheet">
-    <link href="../../../css/hybrid.css?1599149171" rel="stylesheet">
-    <link href="../../../css/featherlight.min.css?1599149171" rel="stylesheet">
-    <link href="../../../css/perfect-scrollbar.min.css?1599149171" rel="stylesheet">
-    <link href="../../../css/auto-complete.css?1599149171" rel="stylesheet">
-    <link href="../../../css/atom-one-dark-reasonable.css?1599149171" rel="stylesheet">
-    <link href="../../../css/theme.css?1599149171" rel="stylesheet">
-    <link href="../../../css/hugo-theme.css?1599149171" rel="stylesheet">
+    <link href="../../../css/nucleus.css?1599213773" rel="stylesheet">
+    <link href="../../../css/fontawesome-all.min.css?1599213773" rel="stylesheet">
+    <link href="../../../css/hybrid.css?1599213773" rel="stylesheet">
+    <link href="../../../css/featherlight.min.css?1599213773" rel="stylesheet">
+    <link href="../../../css/perfect-scrollbar.min.css?1599213773" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1599213773" rel="stylesheet">
+    <link href="../../../css/atom-one-dark-reasonable.css?1599213773" rel="stylesheet">
+    <link href="../../../css/theme.css?1599213773" rel="stylesheet">
+    <link href="../../../css/hugo-theme.css?1599213773" rel="stylesheet">
     
-    <link href="../../../css/theme-blue.css?1599149171" rel="stylesheet">
+    <link href="../../../css/theme-blue.css?1599213773" rel="stylesheet">
     
     
 
-    <script src="../../../js/jquery-3.3.1.min.js?1599149171"></script>
+    <script src="../../../js/jquery-3.3.1.min.js?1599213773"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -65,14 +65,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../../js/lunr.min.js?1599149171"></script>
-<script type="text/javascript" src="../../../js/auto-complete.js?1599149171"></script>
+<script type="text/javascript" src="../../../js/lunr.min.js?1599213773"></script>
+<script type="text/javascript" src="../../../js/auto-complete.js?1599213773"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="../../../js/search.js?1599149171"></script>
+<script type="text/javascript" src="../../../js/search.js?1599213773"></script>
 
     
   </div>
@@ -523,6 +523,7 @@
         <li><a href="#amm-bot">AMM Bot</a></li>
         <li><a href="#dumplings">Dumplings</a></li>
         <li><a href="#borrowlending">Borrow/Lending</a></li>
+        <li><a href="#sushi-swap">Sushi Swap</a></li>
         <li><a href="#cross-chain-bridges">Cross-Chain Bridges</a></li>
         <li><a href="#cross-chain-lending">Cross-Chain Lending</a></li>
         <li><a href="#serum-oracle">Serum Oracle</a></li>
@@ -682,6 +683,46 @@
 <p>Must be able to launch new books with arbitrary SPL tokens</p>
 </li>
 </ul>
+<h3 id="sushi-swap">Sushi Swap</h3>
+<p><em>Notes: This is submitted on behalf of <a href="https://www.ecoserum.dev">EcoSerum</a>, a Serum node. Serum Academy is involved in the development of Serum but has not been involved in the development of Sushi in any way.</em></p>
+<h4 id="proposal">Proposal</h4>
+<ul>
+<li>The Sushi community builds out support for Sushiswap on Solana</li>
+<li>Sushi rewards are paid to both Ethereum and Solana/Serum based Sushiswap
+<ul>
+<li>Proportional to the TLV in each</li>
+<li>Or alternately fixed to each pool</li>
+<li>Open to other suggestions as well&ndash;what’s fair?</li>
+</ul>
+</li>
+<li>The Sushi community composes this with the Serum orderbooks
+<ul>
+<li>Each Sushi pool has a curve, currently constant-product</li>
+<li>The pool sends bids/offers into the associated Serum orderbook to simulate that curve</li>
+<li>This allows the Sushi AMM to share liquidity and volume with the orderbook</li>
+<li>There are maker rebates on Serum orderbooks that the AMMs would capture; they can also add on their own fees</li>
+</ul>
+</li>
+<li><a href="https://ftx.com">FTX</a> has a bridge from ERC20 &lt;&gt; SPL (Solana token) Sushi; in the next week, <a href="https://sollet.io">Sollet.io</a> will as well</li>
+<li>Sushi will also be able to compose with a borrow/lending protocol on Serum to allow the pools to trade on margin, though that’s not necessary for V1</li>
+<li>To clarify: Sushi would not be moving off of Etherum in any way; this would be an addition, not a replacement.</li>
+</ul>
+<h4 id="rewards">Rewards</h4>
+<ul>
+<li><a href="https://www.ecoserum.dev">EcoSerum</a>, a Serum node that helps build out the community, will give the following rewards:</li>
+<li>50k SRM for 1+2</li>
+<li>1 locked MegaSerum for 1-5
+<ul>
+<li>One MegaSerum is 1 million Serum put together</li>
+<li>This will allow the Sushi community to participate in Serum, run a node, receive yield, benefit from a buy/burn, and receive discounts</li>
+<li>This will be locked (not sellable or transferable) for 1-7 years: fully locked until Aug 1 2021, and then unlocking linearly over the 6 years after that</li>
+</ul>
+</li>
+<li>These rewards are for the Sushi community, controlled by governance, to do what they want with</li>
+<li>In addition, 20k SRM for 1+2 and another 10k for 1-5 to the team who builds it</li>
+</ul>
+<h4 id="timeline">Timeline</h4>
+<p>The target would be for pieces of this to roll out within a month, and completion before the end of 2020. The assumption is that work would not start in earnest until after the Sushiswap migration is complete.</p>
 <h3 id="cross-chain-bridges">Cross-Chain Bridges</h3>
 <p>It would be awesome to have fully on-chain bridges between Solana and as many other chains as possible. See prospective specs for one here, but there are many other versions!</p>
 <h3 id="cross-chain-lending">Cross-Chain Lending</h3>
@@ -951,19 +992,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../js/clipboard.min.js?1599149171"></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1599149171"></script>
-    <script src="../../../js/perfect-scrollbar.jquery.min.js?1599149171"></script>
-    <script src="../../../js/jquery.sticky.js?1599149171"></script>
-    <script src="../../../js/featherlight.min.js?1599149171"></script>
-    <script src="../../../js/highlight.pack.js?1599149171"></script>
+    <script src="../../../js/clipboard.min.js?1599213773"></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1599213773"></script>
+    <script src="../../../js/perfect-scrollbar.jquery.min.js?1599213773"></script>
+    <script src="../../../js/jquery.sticky.js?1599213773"></script>
+    <script src="../../../js/featherlight.min.js?1599213773"></script>
+    <script src="../../../js/highlight.pack.js?1599213773"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../../js/modernizr.custom-3.6.0.js?1599149171"></script>
-    <script src="../../../js/learn.js?1599149171"></script>
-    <script src="../../../js/hugo-learn.js?1599149171"></script>
+    <script src="../../../js/modernizr.custom-3.6.0.js?1599213773"></script>
+    <script src="../../../js/learn.js?1599213773"></script>
+    <script src="../../../js/hugo-learn.js?1599213773"></script>
 
-    <link href="../../../mermaid/mermaid.css?1599149171" rel="stylesheet" />
-    <script src="../../../mermaid/mermaid.js?1599149171"></script>
+    <link href="../../../mermaid/mermaid.css?1599213773" rel="stylesheet" />
+    <script src="../../../mermaid/mermaid.js?1599213773"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

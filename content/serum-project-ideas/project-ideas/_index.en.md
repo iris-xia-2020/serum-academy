@@ -102,6 +102,41 @@ If you build it to the below specs, it will receive a predetermined bounty inste
 
 - Must be able to launch new books with arbitrary SPL tokens
 
+### Sushi Swap
+
+_Notes: This is submitted on behalf of [EcoSerum](https://www.ecoserum.dev), a Serum node. Serum Academy is involved in the development of Serum but has not been involved in the development of Sushi in any way._
+
+#### Proposal
+
+- The Sushi community builds out support for Sushiswap on Solana
+- Sushi rewards are paid to both Ethereum and Solana/Serum based Sushiswap
+  - Proportional to the TLV in each
+  - Or alternately fixed to each pool
+  - Open to other suggestions as well--what’s fair?
+- The Sushi community composes this with the Serum orderbooks
+  - Each Sushi pool has a curve, currently constant-product
+  - The pool sends bids/offers into the associated Serum orderbook to simulate that curve
+  - This allows the Sushi AMM to share liquidity and volume with the orderbook
+  - There are maker rebates on Serum orderbooks that the AMMs would capture; they can also add on their own fees
+- [FTX](https://ftx.com) has a bridge from ERC20 <> SPL (Solana token) Sushi; in the next week, [Sollet.io](https://sollet.io) will as well
+- Sushi will also be able to compose with a borrow/lending protocol on Serum to allow the pools to trade on margin, though that’s not necessary for V1
+- To clarify: Sushi would not be moving off of Etherum in any way; this would be an addition, not a replacement.
+
+#### Rewards
+
+- [EcoSerum](https://www.ecoserum.dev), a Serum node that helps build out the community, will give the following rewards:
+- 50k SRM for 1+2
+- 1 locked MegaSerum for 1-5
+  - One MegaSerum is 1 million Serum put together
+  - This will allow the Sushi community to participate in Serum, run a node, receive yield, benefit from a buy/burn, and receive discounts
+  - This will be locked (not sellable or transferable) for 1-7 years: fully locked until Aug 1 2021, and then unlocking linearly over the 6 years after that
+- These rewards are for the Sushi community, controlled by governance, to do what they want with
+- In addition, 20k SRM for 1+2 and another 10k for 1-5 to the team who builds it
+
+#### Timeline
+
+The target would be for pieces of this to roll out within a month, and completion before the end of 2020. The assumption is that work would not start in earnest until after the Sushiswap migration is complete.
+
 ### Cross-Chain Bridges
 
 It would be awesome to have fully on-chain bridges between Solana and as many other chains as possible. See prospective specs for one here, but there are many other versions!
