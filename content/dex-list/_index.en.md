@@ -18,6 +18,8 @@ Below is a list of Serum DEXes:
 
 - Bonfida Serum DEX: [https://serum-dex.bonfida.com](https://serum-dex.bonfida.com)
 
+- SerumStake DEX: [https://dex.serumstakers.com](https://dex.serumstakers.com)
+
 ## Host a GUI
 
 Want to help support the Serum ecosystem? Host a GUI and get a fraction of the fees!
