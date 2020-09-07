@@ -22,21 +22,21 @@
     <title>Project Ideas for Serum :: Serum Academy</title>
 
     
-    <link href="../../../css/nucleus.css?1599434176" rel="stylesheet">
-    <link href="../../../css/fontawesome-all.min.css?1599434176" rel="stylesheet">
-    <link href="../../../css/hybrid.css?1599434176" rel="stylesheet">
-    <link href="../../../css/featherlight.min.css?1599434176" rel="stylesheet">
-    <link href="../../../css/perfect-scrollbar.min.css?1599434176" rel="stylesheet">
-    <link href="../../../css/auto-complete.css?1599434176" rel="stylesheet">
-    <link href="../../../css/atom-one-dark-reasonable.css?1599434176" rel="stylesheet">
-    <link href="../../../css/theme.css?1599434176" rel="stylesheet">
-    <link href="../../../css/hugo-theme.css?1599434176" rel="stylesheet">
+    <link href="../../../css/nucleus.css?1599485404" rel="stylesheet">
+    <link href="../../../css/fontawesome-all.min.css?1599485404" rel="stylesheet">
+    <link href="../../../css/hybrid.css?1599485404" rel="stylesheet">
+    <link href="../../../css/featherlight.min.css?1599485404" rel="stylesheet">
+    <link href="../../../css/perfect-scrollbar.min.css?1599485404" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1599485404" rel="stylesheet">
+    <link href="../../../css/atom-one-dark-reasonable.css?1599485404" rel="stylesheet">
+    <link href="../../../css/theme.css?1599485404" rel="stylesheet">
+    <link href="../../../css/hugo-theme.css?1599485404" rel="stylesheet">
     
-    <link href="../../../css/theme-blue.css?1599434176" rel="stylesheet">
+    <link href="../../../css/theme-blue.css?1599485404" rel="stylesheet">
     
     
 
-    <script src="../../../js/jquery-3.3.1.min.js?1599434176"></script>
+    <script src="../../../js/jquery-3.3.1.min.js?1599485404"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -65,14 +65,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../../js/lunr.min.js?1599434176"></script>
-<script type="text/javascript" src="../../../js/auto-complete.js?1599434176"></script>
+<script type="text/javascript" src="../../../js/lunr.min.js?1599485404"></script>
+<script type="text/javascript" src="../../../js/auto-complete.js?1599485404"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="../../../js/search.js?1599434176"></script>
+<script type="text/javascript" src="../../../js/search.js?1599485404"></script>
 
     
   </div>
@@ -525,6 +525,7 @@
         <li><a href="#borrowlending">Borrow/Lending</a></li>
         <li><a href="#sushi-swap">Sushi Swap</a></li>
         <li><a href="#cross-chain-bridges">Cross-Chain Bridges</a></li>
+        <li><a href="#swipe-integration">Swipe Integration</a></li>
         <li><a href="#cross-chain-lending">Cross-Chain Lending</a></li>
         <li><a href="#serum-oracle">Serum Oracle</a></li>
         <li><a href="#serum-rfq">Serum RFQ</a></li>
@@ -605,6 +606,7 @@
 <p>Must be able to launch new AMMs with arbitrary SPL tokens</p>
 </li>
 </ul>
+<p><em>Note: A draft of an implementation of AMMs on Solana can be found on the <a href="https://github.com/solana-labs/solana-program-library/tree/master/token-swap">GitHub account</a> of Solana Labs.</em></p>
 <h3 id="dumplings">Dumplings</h3>
 <p>A yield farming token that is integrated into an AMM system on Serum.</p>
 <p>Here is an idea of what it could look like:</p>
@@ -725,6 +727,15 @@
 <p>The target would be for pieces of this to roll out within a month, and completion before the end of 2020. The assumption is that work would not start in earnest until after the Sushiswap migration is complete.</p>
 <h3 id="cross-chain-bridges">Cross-Chain Bridges</h3>
 <p>It would be awesome to have fully on-chain bridges between Solana and as many other chains as possible. See prospective specs for one here, but there are many other versions!</p>
+<h3 id="swipe-integration">Swipe Integration</h3>
+<p>Build a project with the following properties:</p>
+<ul>
+<li>Swipe generates a new Solana wallet address A, gets the private key</li>
+<li>Swipe creates another Solana wallet address A2 controlled by the first one and passes that secret key on to the user</li>
+<li>When an incoming payment request comes for $D, Swipe: (a) freezes withdrawals from A2 and everything it owns; (b) adds up the value of assets in A2 and everything it owns; and (c) determines if it&rsquo;s &gt; D or not. If so it sells assets into USDC until it hits D on the Serum orderbooks, withdraws that, and then approves the request; otherwise it denies it.</li>
+<li><strong>Optional:</strong> Tack on 0.25% of fees for the transactions and use those to buy/burn an SPL token T; T has 1b total tokens and airdrops them over 7 years onto SRM stakers, possibly + SPL SXP holders</li>
+<li>Reward: 20% of T tokens, 1-7 year lockup</li>
+</ul>
 <h3 id="cross-chain-lending">Cross-Chain Lending</h3>
 <p>Assets can be pre-funded across the bridge and allow users to avoid waiting for cross-chain synchronization for a fee. For example, a user could deposit X eth into the bridge as collateral, and be able to withdraw any pre-funded assets up to some limit.</p>
 <h3 id="serum-oracle">Serum Oracle</h3>
@@ -774,6 +785,7 @@
 <li>Ledger support for <a href="https://sollet.io">Sollet.io</a></li>
 <li>Volume and other metric trackers for Serum</li>
 <li>A tool to validate GUIs against the source code</li>
+<li>Build support for on-chain triggered orders (stop losses, take profits) into Serum.</li>
 </ul>
 <p>See Project Serum <a href="https://github.com/project-serum/">GitHub account</a> for the source of <a href="https://sollet.io">Sollet.io</a> and the <a href="../../../en/dex-list">DEX GUI</a></p>
 
@@ -992,19 +1004,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../js/clipboard.min.js?1599434176"></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1599434176"></script>
-    <script src="../../../js/perfect-scrollbar.jquery.min.js?1599434176"></script>
-    <script src="../../../js/jquery.sticky.js?1599434176"></script>
-    <script src="../../../js/featherlight.min.js?1599434176"></script>
-    <script src="../../../js/highlight.pack.js?1599434176"></script>
+    <script src="../../../js/clipboard.min.js?1599485404"></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1599485404"></script>
+    <script src="../../../js/perfect-scrollbar.jquery.min.js?1599485404"></script>
+    <script src="../../../js/jquery.sticky.js?1599485404"></script>
+    <script src="../../../js/featherlight.min.js?1599485404"></script>
+    <script src="../../../js/highlight.pack.js?1599485404"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../../js/modernizr.custom-3.6.0.js?1599434176"></script>
-    <script src="../../../js/learn.js?1599434176"></script>
-    <script src="../../../js/hugo-learn.js?1599434176"></script>
+    <script src="../../../js/modernizr.custom-3.6.0.js?1599485404"></script>
+    <script src="../../../js/learn.js?1599485404"></script>
+    <script src="../../../js/hugo-learn.js?1599485404"></script>
 
-    <link href="../../../mermaid/mermaid.css?1599434176" rel="stylesheet" />
-    <script src="../../../mermaid/mermaid.js?1599434176"></script>
+    <link href="../../../mermaid/mermaid.css?1599485404" rel="stylesheet" />
+    <script src="../../../mermaid/mermaid.js?1599485404"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

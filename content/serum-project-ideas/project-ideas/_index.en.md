@@ -44,6 +44,8 @@ If you build it to the below specs, it will receive a predetermined bounty inste
 
 - Must be able to launch new AMMs with arbitrary SPL tokens
 
+_Note: A draft of an implementation of AMMs on Solana can be found on the [GitHub account](https://github.com/solana-labs/solana-program-library/tree/master/token-swap) of Solana Labs._
+
 ### Dumplings
 
 A yield farming token that is integrated into an AMM system on Serum.
@@ -141,6 +143,16 @@ The target would be for pieces of this to roll out within a month, and completio
 
 It would be awesome to have fully on-chain bridges between Solana and as many other chains as possible. See prospective specs for one here, but there are many other versions!
 
+### Swipe Integration
+
+Build a project with the following properties:
+
+- Swipe generates a new Solana wallet address A, gets the private key
+- Swipe creates another Solana wallet address A2 controlled by the first one and passes that secret key on to the user
+- When an incoming payment request comes for \$D, Swipe: (a) freezes withdrawals from A2 and everything it owns; (b) adds up the value of assets in A2 and everything it owns; and (c) determines if it's > D or not. If so it sells assets into USDC until it hits D on the Serum orderbooks, withdraws that, and then approves the request; otherwise it denies it.
+- **Optional:** Tack on 0.25% of fees for the transactions and use those to buy/burn an SPL token T; T has 1b total tokens and airdrops them over 7 years onto SRM stakers, possibly + SPL SXP holders
+- Reward: 20% of T tokens, 1-7 year lockup
+
 ### Cross-Chain Lending
 
 Assets can be pre-funded across the bridge and allow users to avoid waiting for cross-chain synchronization for a fee. For example, a user could deposit X eth into the bridge as collateral, and be able to withdraw any pre-funded assets up to some limit.
@@ -206,5 +218,6 @@ Below is a list of GUI & other features that could be developed:
 - Ledger support for [Sollet.io](https://sollet.io)
 - Volume and other metric trackers for Serum
 - A tool to validate GUIs against the source code
+- Build support for on-chain triggered orders (stop losses, take profits) into Serum.
 
 See Project Serum [GitHub account](https://github.com/project-serum/) for the source of [Sollet.io](https://sollet.io) and the [DEX GUI](/en/dex-list)
