@@ -219,5 +219,6 @@ Below is a list of GUI & other features that could be developed:
 - Volume and other metric trackers for Serum
 - A tool to validate GUIs against the source code
 - Build support for on-chain triggered orders (stop losses, take profits) into Serum.
+- Add Ledger support on Serum DEX UI
 
 See Project Serum [GitHub account](https://github.com/project-serum/) for the source of [Sollet.io](https://sollet.io) and the [DEX GUI](/en/dex-list)
