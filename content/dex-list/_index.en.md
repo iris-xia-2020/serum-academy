@@ -16,7 +16,7 @@ Below is a list of Serum DEXes:
 
 - Project Serum DEX: [https://dex.projectserum.com](https://dex.projectserum.com)
 
-- Bonfida Serum DEX: [https://serum-dex.bonfida.com](https://serum-dex.bonfida.com)
+- Bonfida Serum DEX: [https://bonfida.com/dex](https://bonfida.com/dex)
 
 - SerumStake DEX: [https://dex.serumstakers.com](https://dex.serumstakers.com)
 
