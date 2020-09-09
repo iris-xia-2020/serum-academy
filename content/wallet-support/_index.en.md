@@ -3,47 +3,59 @@ title: Wallet Support
 weight: 5
 ---
 
-### FTX
+### [FTX](https://ftx.com)
 
 - SOL
 - SPL Tokens
-- ERC20 <> SPL tokens
-- Serum
+- ERC20 <> SPL tokens conversion
 
-### Binance
+Website: [https://ftx.com](https://ftx.com)
 
-- SOL
-- Serum (ERC20 only)
-
-### BitMax
+### [Binance](https://binance.com)
 
 - SOL
-- Serum (ERC20 only)
+- SRM **(ERC20 only)**
 
-### Ledger
+Website: [https://binance.com](https://binance.com)
+
+### [BitMax](https://bitmax.io)
+
+- SOL
+- SRM **(ERC20 only)**
+
+Website: [https://bitmax.io](https://bitmax.io)
+
+### [Ledger](https://www.ledger.com)
 
 - SOL
 
-### Math Wallet
+Website: [https://www.ledger.com](https://www.ledger.com)
 
-- SOL
-- SPL Tokens
-- Serum
-
-### Coin98
-
-- SOL
-- SPL Tokens
-- Serum
-
-### Solflare
-
-- SOL
-- SPL Tokens
-- Serum
-
-### Sollet.io
+### [Sollet.io](https://www.sollet.io)
 
 - SOL
 - SPL tokens
-- Serum
+- Serum DEX support
+
+Website: [https://www.sollet.io](https://www.sollet.io)
+
+### [Math Wallet](https://mathwallet.org)
+
+- SOL
+- SPL Tokens
+
+Website: [https://mathwallet.org](https://mathwallet.org)
+
+### [Coin98](https://coin98.app)
+
+- SOL
+- SPL Tokens
+
+Website: [https://coin98.app](https://coin98.app)
+
+### [Solflare](https://solflare.com)
+
+- SOL
+- SPL Tokens
+
+Website: [https://solflare.com](https://solflare.com)
