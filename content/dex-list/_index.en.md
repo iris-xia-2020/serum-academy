@@ -20,6 +20,8 @@ Below is a list of Serum DEXes:
 
 - SerumStake DEX: [https://dex.serumstakers.com](https://dex.serumstakers.com)
 
+- Tech.Ed Training: [http://serum.techedtraining.com/](http://serum.techedtraining.com/)
+
 ## Host a GUI
 
 Want to help support the Serum ecosystem? Host a GUI and get a fraction of the fees!
