@@ -8,6 +8,8 @@ weight: 3
 
 Below is a list of Serum DEXes:
 
+- Bonfida Serum DEX: [https://bonfida.com/dex](https://bonfida.com/dex)
+
 - Serum Today: [https://serum.today](https://serum.today)
 
 - Serum Pro: [https://serumpro.org](https://serumpro.org)
@@ -15,8 +17,6 @@ Below is a list of Serum DEXes:
 - Serum Folkvang.io: [https://serum-mirror.folkvang.io](https://serum-mirror.folkvang.io/)
 
 - Project Serum DEX: [https://dex.projectserum.com](https://dex.projectserum.com)
-
-- Bonfida Serum DEX: [https://bonfida.com/dex](https://bonfida.com/dex)
 
 - SerumStake DEX: [https://dex.serumstakers.com](https://dex.serumstakers.com)
 

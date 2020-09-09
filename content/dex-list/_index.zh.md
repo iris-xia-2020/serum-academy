@@ -8,6 +8,8 @@ weight: 3
 
 以下是接入 Serum DEX 的网址：
 
+- Bonfida Serum DEX: [https://bonfida.com/dex](https://bonfida.com/dex)
+
 - Serum Today: [https://serum.today](https://serum.today)
 
 - Serum Pro: [https://serumpro.org](https://serumpro.org)
