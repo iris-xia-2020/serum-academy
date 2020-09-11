@@ -4,6 +4,16 @@
   
   <url>
     <loc>/en/serum-project-ideas/serum-ecosystem/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/serum-project-ideas/serum-ecosystem/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/serum-project-ideas/serum-ecosystem/"
+                />
   </url>
   
   <url>
