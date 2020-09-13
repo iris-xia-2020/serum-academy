@@ -36,6 +36,7 @@ Website: [https://www.ledger.com](https://www.ledger.com)
 - SOL
 - SPL tokens
 - Serum DEX support
+- ERC20 <> SPL conversions
 
 Website: [https://www.sollet.io](https://www.sollet.io)
 
