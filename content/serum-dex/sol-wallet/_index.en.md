@@ -24,9 +24,9 @@ Now, let’s add some SOL to our wallet. For this you need to click on **Receive
 
 ![deposit-sol](/images/articles/serum-dex/sol-wallet/deposit-sol.png?classes=shadow&width=50pc)
 
-Now that you have some SOL in your wallet you can create another SPL address in your wallet. For this click on the **+** icon in the top right corner. A pop up will appear, you will have the possibility to add a popular SPL token such as: **SRM**, **MSRM**, **FTT**, **BTC**, **ETH**, **LINK** **XRP**, **USDT**, **USDC**. 
-Then deposit your USDC, USDT, XRP, LINK, YFI, FTT, ETH, and/or BTC into your FTX account. Enter in your Sollet deposit address for the crypto you would like to withdraw and FTX will automatically wrap your crypto in an SPL token to be used with the Serum dex. 
-Please note that to convert wrapped SPL assets back into their native chain, you can deposit into FTX and withdraw the unwrapped assets. 
+Now that you have some SOL in your wallet you can create another SPL address in your wallet. For this click on the **+** icon in the top right corner. A pop up will appear, you will have the possibility to add a popular SPL token such as: **SRM**, **MSRM**, **FTT**, **BTC**, **ETH**, **LINK** **XRP**, **USDT**, **USDC**.
+Then deposit your USDC, USDT, XRP, LINK, YFI, FTT, ETH, and/or BTC into your FTX account. Enter in your Sollet deposit address for the crypto you would like to withdraw and FTX will automatically wrap your crypto in an SPL token to be used with the Serum dex.
+Please note that to convert wrapped SPL assets back into their native chain, you can deposit into FTX and withdraw the unwrapped assets.
 
 ![add-token-popular](/images/articles/serum-dex/sol-wallet/add-token-popular.png?classes=shadow&width=25pc)
 
@@ -37,6 +37,26 @@ You can see that below your SOL address a SRM address appeared. You can use this
 If you would like to add another token that's not on the Popular Token list, you can add it manually by entering the **Mint Address** of the token.
 
 ![add-token-manual](/images/articles/serum-dex/sol-wallet/add-token-manual.png?classes=shadow&width=25pc).
+
+### Convert ERC20 to SPL tokens
+
+Some tokens are both ERC20 and SPL, [Sollet.io](https://sollet.io) allows you to convert ERC20 to SPL using your **MetaMask Wallet**.
+
+To do so, click on the token you would like to deposit, once deposit pop opened click on the **ERC20 Tab**
+
+![erc20 tab](/images/articles/serum-dex/sol-wallet/deposit-erc20.png?classes=shadow&width=25pc).
+
+Now, click on **CONNECT TO METAMASK**, a **MetaMask** pop up will open, click on **Confirm**.
+
+Once your wallet is connected enter the amount of **ERC20** you would like to convert and click on **CONVERT**. A **MetaMask** pop up will open to confirm the transaction and set the gas fees:
+
+![metamask popup](/images/articles/serum-dex/sol-wallet/metamask-popups.png?classes=shadow&width=25pc).
+
+Then wait for the transaction to be confirmed on the blockchain
+
+![confirmation](/images/articles/serum-dex/sol-wallet/erc20-confirm.png?classes=shadow&width=25pc).
+
+Once the transaction is confirm the funds will be available in your wallet.
 
 Now we have deposited some tokens in our [Sollet.io](https://sollet.io) wallet. Time to do a trade on Serum!
 
