@@ -40,9 +40,9 @@ If you would like to add another token that's not on the Popular Token list, you
 
 ### Convert ERC20 to SPL tokens
 
-Some tokens are both ERC20 and SPL, [Sollet.io](https://sollet.io) allows you to convert ERC20 to SPL using your **MetaMask Wallet**.
+Sollet.io allows you to convert ERC20 to SPL and vice versa using your **MetaMask Wallet**.
 
-To do so, click on the token you would like to deposit, once deposit pop opened click on the **ERC20 Tab**
+To do so, click on the token you would like to deposit, once deposit pops open click on the **ERC20 Tab**
 
 ![erc20 tab](/images/articles/serum-dex/sol-wallet/deposit-erc20.png?classes=shadow&width=25pc).
 
@@ -56,7 +56,7 @@ Then wait for the transaction to be confirmed on the blockchain
 
 ![confirmation](/images/articles/serum-dex/sol-wallet/erc20-confirm.png?classes=shadow&width=25pc).
 
-Once the transaction is confirm the funds will be available in your wallet.
+Once the transaction is confirmed the funds will be available in your wallet.
 
 Now we have deposited some tokens in our [Sollet.io](https://sollet.io) wallet. Time to do a trade on Serum!
 
