@@ -22,21 +22,21 @@
     <title>SOL Wallet :: Serum Academy</title>
 
     
-    <link href="../../../css/nucleus.css?1599980800" rel="stylesheet">
-    <link href="../../../css/fontawesome-all.min.css?1599980800" rel="stylesheet">
-    <link href="../../../css/hybrid.css?1599980800" rel="stylesheet">
-    <link href="../../../css/featherlight.min.css?1599980800" rel="stylesheet">
-    <link href="../../../css/perfect-scrollbar.min.css?1599980800" rel="stylesheet">
-    <link href="../../../css/auto-complete.css?1599980800" rel="stylesheet">
-    <link href="../../../css/atom-one-dark-reasonable.css?1599980800" rel="stylesheet">
-    <link href="../../../css/theme.css?1599980800" rel="stylesheet">
-    <link href="../../../css/hugo-theme.css?1599980800" rel="stylesheet">
+    <link href="../../../css/nucleus.css?1599986778" rel="stylesheet">
+    <link href="../../../css/fontawesome-all.min.css?1599986778" rel="stylesheet">
+    <link href="../../../css/hybrid.css?1599986778" rel="stylesheet">
+    <link href="../../../css/featherlight.min.css?1599986778" rel="stylesheet">
+    <link href="../../../css/perfect-scrollbar.min.css?1599986778" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1599986778" rel="stylesheet">
+    <link href="../../../css/atom-one-dark-reasonable.css?1599986778" rel="stylesheet">
+    <link href="../../../css/theme.css?1599986778" rel="stylesheet">
+    <link href="../../../css/hugo-theme.css?1599986778" rel="stylesheet">
     
-    <link href="../../../css/theme-blue.css?1599980800" rel="stylesheet">
+    <link href="../../../css/theme-blue.css?1599986778" rel="stylesheet">
     
     
 
-    <script src="../../../js/jquery-3.3.1.min.js?1599980800"></script>
+    <script src="../../../js/jquery-3.3.1.min.js?1599986778"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -65,14 +65,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../../../js/lunr.min.js?1599980800"></script>
-<script type="text/javascript" src="../../../js/auto-complete.js?1599980800"></script>
+<script type="text/javascript" src="../../../js/lunr.min.js?1599986778"></script>
+<script type="text/javascript" src="../../../js/auto-complete.js?1599986778"></script>
 <script type="text/javascript">
     
         var baseurl = "\/en";
     
 </script>
-<script type="text/javascript" src="../../../js/search.js?1599980800"></script>
+<script type="text/javascript" src="../../../js/search.js?1599986778"></script>
 
     
   </div>
@@ -544,7 +544,11 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#create-your-sol-wallet--deposit-funds">Create your SOL wallet &amp; Deposit Funds</a></li>
+    <li><a href="#create-your-sol-wallet--deposit-funds">Create your SOL wallet &amp; Deposit Funds</a>
+      <ul>
+        <li><a href="#convert-erc20-to-spl-tokens">Convert ERC20 to SPL tokens</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -573,7 +577,7 @@
 	<h2 id="create-your-sol-wallet--deposit-funds">Create your SOL wallet &amp; Deposit Funds</h2>
 <p>Serum is built on the <a href="https://solana.com">Solana blockchain</a>, so the first step is to create a SOL wallet. For this we recommend using <a href="https://sollet.io">Sollet.io</a>.</p>
 <p>Once you arrive on <a href="https://sollet.io">Sollet.io</a> for the first time you have the possibility to create a new wallet. You will be given seed words, make sure to save them offline somewhere safe. This is the only way you can recover your wallet, don’t lose them!</p>
-<p><img src="../../../images/articles/serum-dex/sol-wallet/create-new-wallet.png?classes=shadow&amp;width=25pc" alt="creat-wallet"></p>
+<p><img src="../../../images/articles/serum-dex/sol-wallet/create-new-wallet.png?classes=shadow&amp;width=25pc" alt="create-wallet"></p>
 <p>Once you have noted down your seeds, you will have the possibility to add a password to your <a href="https://sollet.io">Sollet.io</a> wallet. Even though this is optional, it is highly recommended for your own security.</p>
 <p><img src="../../../images/articles/serum-dex/sol-wallet/password.png?classes=shadow&amp;width=25pc" alt="password"></p>
 <p>Once the password is set (or not) you have successfully created your SOL wallet. The next step will be to send SOL to your deposit address. SOL can be bought on several exchanges like <a href="https://binance.com">Binance</a> or <a href="https://ftx.com">FTX</a>.</p>
@@ -588,6 +592,16 @@ Please note that to convert wrapped SPL assets back into their native chain, you
 <p><img src="../../../images/articles/serum-dex/sol-wallet/srm-balance.png?classes=shadow&amp;width=50pc" alt="srm-balance"></p>
 <p>If you would like to add another token that&rsquo;s not on the Popular Token list, you can add it manually by entering the <strong>Mint Address</strong> of the token.</p>
 <p><img src="../../../images/articles/serum-dex/sol-wallet/add-token-manual.png?classes=shadow&amp;width=25pc" alt="add-token-manual">.</p>
+<h3 id="convert-erc20-to-spl-tokens">Convert ERC20 to SPL tokens</h3>
+<p>Sollet.io allows you to convert ERC20 to SPL and vice versa using your <strong>MetaMask Wallet</strong>.</p>
+<p>To do so, click on the token you would like to deposit, once deposit pops open click on the <strong>ERC20 Tab</strong></p>
+<p><img src="../../../images/articles/serum-dex/sol-wallet/deposit-erc20.png?classes=shadow&amp;width=25pc" alt="erc20 tab">.</p>
+<p>Now, click on <strong>CONNECT TO METAMASK</strong>, a <strong>MetaMask</strong> pop up will open, click on <strong>Confirm</strong>.</p>
+<p>Once your wallet is connected enter the amount of <strong>ERC20</strong> you would like to convert and click on <strong>CONVERT</strong>. A <strong>MetaMask</strong> pop up will open to confirm the transaction and set the gas fees:</p>
+<p><img src="../../../images/articles/serum-dex/sol-wallet/metamask-popups.png?classes=shadow&amp;width=25pc" alt="metamask popup">.</p>
+<p>Then wait for the transaction to be confirmed on the blockchain</p>
+<p><img src="../../../images/articles/serum-dex/sol-wallet/erc20-confirm.png?classes=shadow&amp;width=25pc" alt="confirmation">.</p>
+<p>Once the transaction is confirmed the funds will be available in your wallet.</p>
 <p>Now we have deposited some tokens in our <a href="https://sollet.io">Sollet.io</a> wallet. Time to do a trade on Serum!</p>
 
 <div class="notices warning" ><p>The Token Address or <strong>Mint Address</strong> is the <strong>contract address</strong> of a token i.e the <strong>token identifier, do not send tokens to this address</strong>.</p>
@@ -823,19 +837,19 @@ Please note that to convert wrapped SPL assets back into their native chain, you
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../js/clipboard.min.js?1599980800"></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1599980800"></script>
-    <script src="../../../js/perfect-scrollbar.jquery.min.js?1599980800"></script>
-    <script src="../../../js/jquery.sticky.js?1599980800"></script>
-    <script src="../../../js/featherlight.min.js?1599980800"></script>
-    <script src="../../../js/highlight.pack.js?1599980800"></script>
+    <script src="../../../js/clipboard.min.js?1599986778"></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1599986778"></script>
+    <script src="../../../js/perfect-scrollbar.jquery.min.js?1599986778"></script>
+    <script src="../../../js/jquery.sticky.js?1599986778"></script>
+    <script src="../../../js/featherlight.min.js?1599986778"></script>
+    <script src="../../../js/highlight.pack.js?1599986778"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../../js/modernizr.custom-3.6.0.js?1599980800"></script>
-    <script src="../../../js/learn.js?1599980800"></script>
-    <script src="../../../js/hugo-learn.js?1599980800"></script>
+    <script src="../../../js/modernizr.custom-3.6.0.js?1599986778"></script>
+    <script src="../../../js/learn.js?1599986778"></script>
+    <script src="../../../js/hugo-learn.js?1599986778"></script>
 
-    <link href="../../../mermaid/mermaid.css?1599980800" rel="stylesheet" />
-    <script src="../../../mermaid/mermaid.js?1599980800"></script>
+    <link href="../../../mermaid/mermaid.css?1599986778" rel="stylesheet" />
+    <script src="../../../mermaid/mermaid.js?1599986778"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
