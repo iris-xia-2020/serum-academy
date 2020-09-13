@@ -10,7 +10,7 @@ Serum is built on the [Solana blockchain](https://solana.com), so the first step
 
 Once you arrive on [Sollet.io](https://sollet.io) for the first time you have the possibility to create a new wallet. You will be given seed words, make sure to save them offline somewhere safe. This is the only way you can recover your wallet, don’t lose them!
 
-![creat-wallet](/images/articles/serum-dex/sol-wallet/create-new-wallet.png?classes=shadow&width=25pc)
+![create-wallet](/images/articles/serum-dex/sol-wallet/create-new-wallet.png?classes=shadow&width=25pc)
 
 Once you have noted down your seeds, you will have the possibility to add a password to your [Sollet.io](https://sollet.io) wallet. Even though this is optional, it is highly recommended for your own security.
 
