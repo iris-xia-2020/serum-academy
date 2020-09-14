@@ -70,6 +70,13 @@
 	"content": "FTX  SOL SPL Tokens ERC20 \u0026lt;\u0026gt; SPL tokens conversion  Website: https://ftx.com\nBinance  SOL SRM (ERC20 only)  Website: https://binance.com\nBitMax  SOL SRM (ERC20 only)  Website: https://bitmax.io\nLedger  SOL  Website: https://www.ledger.com\nSollet.io  SOL SPL tokens Serum DEX support ERC20 \u0026lt;\u0026gt; SPL conversions  Website: https://www.sollet.io\nMath Wallet  SOL SPL Tokens  Website: https://mathwallet.org\nCoin98  SOL SPL Tokens  Website: https://coin98.app\nSolflare  SOL SPL Tokens  Website: https://solflare.com\n"
 },
 {
+	"uri": "/en/add-market/",
+	"title": "Add a market on Serum",
+	"tags": [],
+	"description": "",
+	"content": "Add a market on Serum If you want to add a new market to Serum follow the steps below:\n  The first step is to use Sollet.io to convert between ERC20 and SPL\n  Create a new market see Github\n  Run cranks see Github\n  Add the market to your GUI\n  After creating a new market you will have to think about liquidity on this market\n  "
+},
+{
 	"uri": "/en/categories/",
 	"title": "Categories",
 	"tags": [],

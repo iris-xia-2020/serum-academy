@@ -133,6 +133,10 @@
   </url>
   
   <url>
+    <loc>/en/add-market/</loc>
+  </url>
+  
+  <url>
     <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"

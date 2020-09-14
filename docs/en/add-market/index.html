@@ -19,7 +19,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
 
-    <title>Tags :: Serum Academy</title>
+    <title>Add a market on Serum :: Serum Academy</title>
 
     
     <link href="../../css/nucleus.css?1600061748" rel="stylesheet">
@@ -46,7 +46,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/en/tags/">
+  <body class="" data-url="/en/add-market/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -385,8 +385,8 @@
   
     
     <li data-nav-id="/en/add-market/" title="Add a market on Serum" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="../../en/add-market/">
@@ -453,22 +453,10 @@
                   
                     
                     
-                      <option id="en" value="/en/tags/" selected>English</option>
+                      <option id="en" value="/en/add-market/" selected>English</option>
                     
                   
               
-                  
-              
-          
-              
-              
-                  
-              
-                  
-                    
-                    
-                      <option id="zh" value="/zh/tags/">Chinese</option>
-                    
                   
               
           
@@ -520,6 +508,17 @@
               <div>
                 <div id="top-bar">
                 
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://github.com/dr497/serum-academy/tree/master/content/add-market/_index.en.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
                 
                 <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                     <span id="sidebar-toggle-span">
@@ -540,7 +539,7 @@
             
           
           
-            <a href='../../en/'>Home</a> > Tags
+            <a href='../../en/'>Home</a> > Add a market on Serum
           
         
           
@@ -551,7 +550,11 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#add-a-market-on-serum">Add a market on Serum</a></li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -567,7 +570,7 @@
           
             <h1>
               
-              Tags
+              Add a market on Serum
             </h1>
           
 
@@ -575,11 +578,28 @@
 
 
 
-
-
+	<h2 id="add-a-market-on-serum">Add a market on Serum</h2>
+<p>If you want to add a new market to Serum follow the steps below:</p>
 <ul>
-	
+<li>
+<p>The first step is to use <a href="https://sollet.io">Sollet.io</a> to convert between ERC20 and SPL</p>
+</li>
+<li>
+<p>Create a new market see <a href="https://github.com/project-serum/serum-dex/blob/master/dex/src/instruction.rs">Github</a></p>
+</li>
+<li>
+<p>Run cranks see <a href="https://github.com/project-serum/serum-dex/blob/master/crank/src/main.rs#L297">Github</a></p>
+</li>
+<li>
+<p>Add the market to <a href="https://github.com/project-serum/serum-dex-ui">your GUI</a></p>
+</li>
+<li>
+<p>After creating a new market you will have to think about liquidity on this market</p>
+</li>
 </ul>
+
+
+
 
 
 <footer class=" footline" >
@@ -784,6 +804,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -803,6 +824,8 @@
 
 	 
 	 
+		
+			<a class="nav nav-prev" href="../../en/wallet-support/" title="Wallet Support"> <i class="fa fa-chevron-left"></i></a>
 		
 		
 			<a class="nav nav-next" href="../../en/serum-dex/" title="Trade on Serum DEX" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
