@@ -141,6 +141,17 @@ _Notes: This is submitted on behalf of [EcoSerum](https://www.ecoserum.dev), a S
 
 The target would be for pieces of this to roll out within a month, and completion before the end of 2020. The assumption is that work would not start in earnest until after the Sushiswap migration is complete.
 
+### Pools
+
+Bounty: **25k locked SRM**
+
+Build token pools with the following features:
+
+- Create/redeem pools based on their underlying assets
+- Pools can be program-controlled, address-controlled, or keyless
+- Charge fees for creating/redeeming
+- Create a token, fees -> buy/burn of token; following standard EcoSerum guildlines for the token
+
 ### Cross-Chain Bridges
 
 It would be awesome to have fully on-chain bridges between Solana and as many other chains as possible. See prospective specs for one here, but there are many other versions!
@@ -186,6 +197,15 @@ PoC for ZK liquiditations, where it’s zk to the network, but not zk to the def
 ### Native Metamask Integration
 
 See this introduction to Web3 Plugins for more details
+
+### Messaging Application
+
+Bounty: **Bounty of 25k locked SRM**
+
+Build an instant messaging app on Solana with the following:
+
+- The app would pass encrypted messages over the network
+- Build a GUI for people to chat with each other
 
 ### Mobile App
 
