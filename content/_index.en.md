@@ -13,6 +13,7 @@ The goal of **Serum Academy** is to teach people how to use Serum ecosystem and 
 Below is a list of the most recent tutorials available:
 
 - [How to trade on Serum DEX](/en/serum-dex)
+- [How to convert ERC20 tokens to SPL tokens](/en/serum-dex/sol-wallet/#convert-erc20-to-spl-tokens)
 
 ## List of project ideas for Serum
 
