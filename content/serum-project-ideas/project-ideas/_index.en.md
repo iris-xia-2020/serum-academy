@@ -8,6 +8,8 @@ weight: 2
 
 If you want to know how to get involved on these projects see our dedicated page: [Getting involved](/en/getting-involved)
 
+Developer resources can be found on: [https://projectserum.com/developer-resources](https://projectserum.com/developer-resources)
+
 Feel free to reach out to us if you are interested in any of these projects:
 
 - EcoSerum website: [https://www.ecoserum.dev/](https://www.ecoserum.dev/)
