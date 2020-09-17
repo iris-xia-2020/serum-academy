@@ -10,7 +10,7 @@ weight: 3
 
 举例说，我们要以3.1QUOTE价格购买88个BASE通证，确保输入正确数量和价格后，请在 [Sollet.io](https://sollet.io) 弹窗同意这笔交易请求。
 
-![order form](/images/articles/serum-dex/trade/order-form.png?classes=shadow&width=30pc)
+![order form](/images/articles/serum-dex/trade/order-form1.png?classes=shadow&width=30pc)
 
 ![approve-transaction](/images/articles/serum-dex/trade/approve-transaction.png?classes=shadow&width=40pc)
 
