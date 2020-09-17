@@ -25,6 +25,12 @@ Website: [https://binance.com](https://binance.com)
 
 Website: [https://bitmax.io](https://bitmax.io)
 
+### [FTX US](https://ftx.us)
+
+- SOL
+
+Website: [https://ftx.us](https://ftx.us)
+
 ### [Ledger](https://www.ledger.com)
 
 - SOL
