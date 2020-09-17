@@ -24,8 +24,6 @@ See the list of awarded grants on Project Serum dedicated section: [https://proj
 
 Building an open source system that people can use to achieve AMM-like behavior on Serum’s orderbooks.
 
-Details can be found on Ecoserum website: [https://www.ecoserum.dev/](https://www.ecoserum.dev/)
-
 If you build it to the below specs, it will receive a predetermined bounty instead of the variable one.
 
 **Bounty**: 75k locked SRM
@@ -34,9 +32,11 @@ If you build it to the below specs, it will receive a predetermined bounty inste
 
 - Can support 2-token AMM or more
 
-- Must trade via the orderbooks
+- Must trade via the orderbooks by:
 
-  - Send post-only orders to replicate the curve
+  - (a) Putting out a set of offers with a depth curve that matches the AMM curve
+  - (b) Doing the same with bids
+  - (c) Whenever an offer gets filled, replace it with a bid at the same price/size (post-only), and vice versa when a bid gets filled
 
 - Parameters must be reasonable
 
@@ -47,6 +47,8 @@ If you build it to the below specs, it will receive a predetermined bounty inste
 - Must be open source
 
 - Must be able to launch new AMMs with arbitrary SPL tokens
+
+- Orderbooks:
 
 _Note: A draft of an implementation of AMMs on Solana can be found on the [GitHub account](https://github.com/solana-labs/solana-program-library/tree/master/token-swap) of Solana Labs._
 
