@@ -10,7 +10,7 @@ Now that you have successfully connected your SOL wallet it’s time to trade. T
 
 Let’s buy 88 BASE tokens at a limit price of 3.1 QUOTE tokens each and make sure you approve this transaction on your [Sollet.io](https://sollet.io) popup.
 
-![order form](/images/articles/serum-dex/trade/order-form.png?classes=shadow&width=30pc)
+![order form](/images/articles/serum-dex/trade/order-form1.png?classes=shadow&width=30pc)
 
 ![approve-transaction](/images/articles/serum-dex/trade/approve-transaction.png?classes=shadow&width=40pc)
 
