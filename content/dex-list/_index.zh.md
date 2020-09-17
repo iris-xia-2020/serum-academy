@@ -18,6 +18,6 @@ weight: 3
 
 - Project Serum DEX: [https://dex.projectserum.com](https://dex.projectserum.com)
 
-- Bonfida Serum DEX: [https://serum-dex.bonfida.com](https://serum-dex.bonfida.com)
+- Coin98: [https://coin98.app](https://coin98.app)
 
 Serum DEX 的 GUI 原始码是公开的，并存放于 [GitHub](https://github.com/project-serum/serum-dex-ui)。如果您也是 DEX 的管理人又希望加入以上名单，请和我们联络。

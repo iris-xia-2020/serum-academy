@@ -22,6 +22,8 @@ Below is a list of Serum DEXes:
 
 - Tech.Ed Training: [https://serum.techedtraining.com/](https://serum.techedtraining.com/)
 
+- Coin98: [https://coin98.app](https://coin98.app)
+
 ## Host a GUI
 
 Want to help support the Serum ecosystem? Host a GUI and get a fraction of the fees!

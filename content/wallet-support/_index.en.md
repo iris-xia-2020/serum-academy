@@ -31,6 +31,14 @@ Website: [https://bitmax.io](https://bitmax.io)
 
 Website: [https://ftx.us](https://ftx.us)
 
+### [Coin98](https://coin98.app)
+
+- SOL
+- SPL Tokens
+- Supports Serum trading
+
+Website: [https://coin98.app](https://coin98.app)
+
 ### [Ledger](https://www.ledger.com)
 
 - SOL
@@ -52,13 +60,6 @@ Website: [https://www.sollet.io](https://www.sollet.io)
 - SPL Tokens
 
 Website: [https://mathwallet.org](https://mathwallet.org)
-
-### [Coin98](https://coin98.app)
-
-- SOL
-- SPL Tokens
-
-Website: [https://coin98.app](https://coin98.app)
 
 ### [Solflare](https://solflare.com)
 
