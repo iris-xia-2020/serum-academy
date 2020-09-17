@@ -46,7 +46,7 @@
 	"title": "DEX list",
 	"tags": [],
 	"description": "",
-	"content": "DEX List Below is a list of Serum DEXes:\n  Bonfida Serum DEX: https://bonfida.com/dex\n  Serum Today: https://serum.today\n  Serum Pro: https://serumpro.org\n  Serum Folkvang.io: https://serum-mirror.folkvang.io\n  Project Serum DEX: https://dex.projectserum.com\n  SerumStake DEX: https://dex.serumstakers.com\n  Tech.Ed Training: https://serum.techedtraining.com/\n  Host a GUI Want to help support the Serum ecosystem? Host a GUI and get a fraction of the fees!\n An open source GUI can be found here: https://github.com/project-serum/serum-dex-ui Find more about staking and voting here: https://projectserum.com/staking-voting  "
+	"content": "DEX List Below is a list of Serum DEXes:\n  Bonfida Serum DEX: https://bonfida.com/dex\n  Serum Today: https://serum.today\n  Serum Pro: https://serumpro.org\n  Serum Folkvang.io: https://serum-mirror.folkvang.io\n  Project Serum DEX: https://dex.projectserum.com\n  SerumStake DEX: https://dex.serumstakers.com\n  Tech.Ed Training: https://serum.techedtraining.com/\n  Coin98: https://coin98.app\n  Host a GUI Want to help support the Serum ecosystem? Host a GUI and get a fraction of the fees!\n An open source GUI can be found here: https://github.com/project-serum/serum-dex-ui Find more about staking and voting here: https://projectserum.com/staking-voting  "
 },
 {
 	"uri": "/en/serum-dex/trade/",
@@ -67,7 +67,7 @@
 	"title": "Wallet Support",
 	"tags": [],
 	"description": "",
-	"content": "FTX  SOL SPL Tokens ERC20 \u0026lt;\u0026gt; SPL tokens conversion  Website: https://ftx.com\nBinance  SOL SRM (ERC20 only)  Website: https://binance.com\nBitMax  SOL SRM (ERC20 only)  Website: https://bitmax.io\nFTX US  SOL  Website: https://ftx.us\nLedger  SOL  Website: https://www.ledger.com\nSollet.io  SOL SPL tokens Serum DEX support ERC20 \u0026lt;\u0026gt; SPL conversions  Website: https://www.sollet.io\nMath Wallet  SOL SPL Tokens  Website: https://mathwallet.org\nCoin98  SOL SPL Tokens  Website: https://coin98.app\nSolflare  SOL SPL Tokens  Website: https://solflare.com\n"
+	"content": "FTX  SOL SPL Tokens ERC20 \u0026lt;\u0026gt; SPL tokens conversion  Website: https://ftx.com\nBinance  SOL SRM (ERC20 only)  Website: https://binance.com\nBitMax  SOL SRM (ERC20 only)  Website: https://bitmax.io\nFTX US  SOL  Website: https://ftx.us\nCoin98  SOL SPL Tokens Supports Serum trading  Website: https://coin98.app\nLedger  SOL  Website: https://www.ledger.com\nSollet.io  SOL SPL tokens Serum DEX support ERC20 \u0026lt;\u0026gt; SPL conversions  Website: https://www.sollet.io\nMath Wallet  SOL SPL Tokens  Website: https://mathwallet.org\nSolflare  SOL SPL Tokens  Website: https://solflare.com\n"
 },
 {
 	"uri": "/en/add-market/",
