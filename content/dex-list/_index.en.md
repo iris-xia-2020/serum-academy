@@ -8,6 +8,8 @@ weight: 3
 
 Below is a list of Serum DEXes:
 
+### Web
+
 - Bonfida Serum DEX: [https://bonfida.com/dex](https://bonfida.com/dex)
 
 - Serum Today: [https://serum.today](https://serum.today)
@@ -22,7 +24,9 @@ Below is a list of Serum DEXes:
 
 - Tech.Ed Training: [https://serum.techedtraining.com/](https://serum.techedtraining.com/)
 
-- Coin98 mobile application: [https://coin98.app](https://coin98.app)
+### Mobile
+
+- Coin98: [https://coin98.app](https://coin98.app)
 
 ## Host a GUI
 
