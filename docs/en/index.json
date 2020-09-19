@@ -63,6 +63,13 @@
 	"content": "EcoSerum About EcoSerum brings active investors, traders and developers together to build the Serum ecosystem. As a new, decentralized exchange, Serum is only as strong as its liquidity, accessibility and community. Our stakers are active SRM holders committed to seeing Project Serum flourish, supporting the development of UX focused tools and applications.\nPublic CRM A public CRM by EcoSerum can be found on Trello\nGrant Form EcoSerum grant form can be filled here: https://forms.gle/E3vJF7hWdRjuFYMm6\nSocials   EcoSerum website\n  EcoSerum Telegram\n  Project Serum Discord\n  Host a GUI Want to help support the Serum ecosystem? Host a GUI and get a fraction of the fees!\n An open source GUI can be found here: https://github.com/project-serum/serum-dex-ui Find more about staking and voting here: https://projectserum.com/staking-voting  "
 },
 {
+	"uri": "/en/serum-dex/trade-mobile/",
+	"title": "Trade on mobile with Coin98",
+	"tags": [],
+	"description": "",
+	"content": "You can use the Coin98 application to trade on Serum DEX from your mobile\n The first step is to download the Coin98 application   iOS Android  Create a SOL wallet  Deposit SOL for SPL token wallet creating fees   SOL wallet is the parent wallet, which is created for free SPL token (USDT SPL …) wallets are sub-wallets, which costs a small fee to update the contract when creating (0.0021 SOL). Each SPL token has a different wallet.  Create USDT SPL wallet  Deposit USDT SPL  Note: If you don’t have USDT SPL, you can sell SOL to get USDT SPL following step 6.\nTrade   Access Trade interface Select Trading pair, e.g FRONT/USDT Enter the amount Click Buy FRONT Wait some seconds for the transaction completed  "
+},
+{
 	"uri": "/en/wallet-support/",
 	"title": "Wallet Support",
 	"tags": [],
