@@ -22,7 +22,7 @@ Below is a list of Serum DEXes:
 
 - Tech.Ed Training: [https://serum.techedtraining.com/](https://serum.techedtraining.com/)
 
-- Coin98: [https://coin98.app](https://coin98.app)
+- Coin98 mobile application: [https://coin98.app](https://coin98.app)
 
 ## Host a GUI
 
