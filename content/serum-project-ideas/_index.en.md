@@ -8,4 +8,4 @@ chapter: true
 
 The nodes recently voted in favor of the [this Proposal](https://projectserum.com/blog/project-ideas), creating an initiative to fund projects building on Serum coordinated by [EcoSerum](https://www.ecoserum.dev), one of Project Serum's nodes. Furthermore, 2% of all Serum fees will be used to fund new projects through [EcoSerum](https://www.ecoserum.dev).
 
-Developer resources can be found on: [https://projectserum.com/developer-resources](https://projectserum.com/developer-resources)
+Developer resources can be found on our [dedicated page](/en/developer-resources)
