@@ -8,6 +8,8 @@ title: "Home"
 
 The goal of **Serum Academy** is to teach people how to use Serum ecosystem and build projects on Solana and Serum.
 
+Developer resources are available on our [dedicated section](/en/developer-resources)
+
 ## Current tutorials
 
 Below is a list of the most recent tutorials available:
