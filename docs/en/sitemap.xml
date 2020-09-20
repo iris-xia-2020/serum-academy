@@ -141,6 +141,10 @@
   </url>
   
   <url>
+    <loc>/en/developer-resources/</loc>
+  </url>
+  
+  <url>
     <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"

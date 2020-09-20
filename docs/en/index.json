@@ -84,6 +84,13 @@
 	"content": "Add a market on Serum If you want to add a new market to Serum follow the steps below:\n  The first step is to use Sollet.io to convert between ERC20 and SPL\n  Create a new market see Github\n  Run cranks see Github\n  Add the market to your GUI\n  After creating a new market you will have to think about liquidity on this market\n  "
 },
 {
+	"uri": "/en/developer-resources/",
+	"title": "Developer Resources",
+	"tags": [],
+	"description": "",
+	"content": "Serum is developed and maintained by an open-source community. Below is a non-exhaustive list of relevant projects, tools, and resources within the ecosystem.\nPopular Token Contracts  Serum (SRM) SPL Serum (SRM) ERC20 MegaSerum (MSRM) SPL MegaSerum (MSRM) ERC20  Blockchain  Solana Blockchain – Github Solana Program Library – Github Solana Web3 SDK – Github Solana Explorer – Github Solana Hello World – Github Solana Technical Documentation Solana Discord  Wallets  SPL Token Wallet – Github Sollet.io, powered by the source above SOL Wallet Adapter - Github, a library to allow Solana dApps to use third-party wallets to sign transactions.  DEX Integration  A technical introduction to the Serum DEX DEX source code – Github DEX crank source code – Github Serum.JS – Github, work-in-progress client-side javascript resources to connect to the DEX Serum DEX UI – Github, an implementation of a UI for the Serum DEX Testnet deployment of prototype DEX  DEX Program DEX Market   Example of a Token Pool code - Github Example of a mainnet market: https://explorer.solana.com/address/8AcVjMG2LTbpkjNoyq8RwysokqZunkjy3d5JDzxC6BJa Example of a mainnet program: https://explorer.solana.com/address/4ckmDgGdxQoPDLUkDT3vHgSAkzA3QRdNq5ywwY4sUSJn Bonfida REST API to get data from Serum: https://bonfida.com/blog/articles/serum-api PySerum - GitHub: Python client library for interacting with the Project Serum DEX.  "
+},
+{
 	"uri": "/en/categories/",
 	"title": "Categories",
 	"tags": [],
@@ -95,7 +102,7 @@
 	"title": "Home",
 	"tags": [],
 	"description": "",
-	"content": "Serum Academy Goal The goal of Serum Academy is to teach people how to use Serum ecosystem and build projects on Solana and Serum.\nCurrent tutorials Below is a list of the most recent tutorials available:\n How to trade on Serum DEX How to convert ERC20 tokens to SPL tokens  List of project ideas for Serum  Project Ideas  DEX List You will find the list of all Serum DEXes on our official page\nContribute to the Serum Academy The source of this project can be found on GitHub: https://github.com/dr497/serum-academy\nFeel free to update this content, just click the Edit this page link displayed on top right of each page, and pullrequest it\nYour modification will be deployed automatically when merged.\n "
+	"content": "Serum Academy Goal The goal of Serum Academy is to teach people how to use Serum ecosystem and build projects on Solana and Serum.\nDeveloper resources are available on our dedicated section\nCurrent tutorials Below is a list of the most recent tutorials available:\n How to trade on Serum DEX How to convert ERC20 tokens to SPL tokens  List of project ideas for Serum  Project Ideas  DEX List You will find the list of all Serum DEXes on our official page\nContribute to the Serum Academy The source of this project can be found on GitHub: https://github.com/dr497/serum-academy\nFeel free to update this content, just click the Edit this page link displayed on top right of each page, and pullrequest it\nYour modification will be deployed automatically when merged.\n "
 },
 {
 	"uri": "/en/tags/",
